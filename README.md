@@ -2,6 +2,9 @@
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
+
+**IMPORTANT:** This repo has been deprecated, please use [lens-selector-fhir](https://github.com/Gravitate-Health/lens-selector-fhir) instead of this one.
+
 ---
 ## Table of contents
 
