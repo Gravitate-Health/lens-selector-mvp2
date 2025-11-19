@@ -23,7 +23,7 @@ const retrieveLensesNames = async () => {
   }
 }
 
-const retrieveLense = async (lenseId: string): Promise<Object | null> => {
+const retrieveLens = async (lenseId: string): Promise<Object | null> => {
   let lensPath = `/Library?identifier=${lenseId}`
   try {
     let lenses = await fetch(`${fhirIpsURL}${lensPath}`)
@@ -47,7 +47,7 @@ export const getLens = async (req: Request, res: Response) => {
     return
   }
   try {
-    let lens = await retrieveLense(reqlens)
+    let lens = await retrieveLens(reqlens)
     
     if (lens === null) {
       console.log(`Lens ${reqlens} not found.`);

@@ -30,7 +30,7 @@ paths:
     get:
       tags:
       - Lenses
-      description: Returns the lense itself.
+      description: Returns the lens itself.
       responses:
         "200":
           description: OK
@@ -116,6 +116,6 @@ paths:
       required: true
       schema:
         type: string
-      description: The name of the lense to return.
+      description: The name of the lens to return.
 
 
